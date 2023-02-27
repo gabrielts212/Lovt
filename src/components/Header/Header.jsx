@@ -1,10 +1,14 @@
 import React from 'react'
-import {Box,Flex} from '@chakra-ui/react'
+import {Box,Flex, Heading,Text} from '@chakra-ui/react'
 const Header = () => {
   return (
     <div>
-<Flex>
-aaaaaaaaaaa
+<Flex bg="gray" h="49px" >
+<Heading>
+LOVT
+</Heading>
+{/* <Text>You Love, 
+your loft!</Text> */}
 </Flex>
 
     </div>
