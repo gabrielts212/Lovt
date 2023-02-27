@@ -7,8 +7,8 @@ const Header = () => {
 <Heading>
 LOVT
 </Heading>
-{/* <Text>You Love, 
-your loft!</Text> */}
+<Text>You Love, 
+your loft!</Text>
 </Flex>
 
     </div>
