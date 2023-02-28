@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div>
 
-<Flex  bg="#333333" h="400px" align="center" justify="center" gap="20">
+<Flex  bg="#333333" h="300px" align="center" justify="center" gap="20">
   
 <Flex h="163px" w="252px" >
 <Image src={Mapa} alt="" width="250px" h="150px" />

@@ -1,14 +1,16 @@
 import React from 'react'
 import {Box,Flex, Heading,Text} from '@chakra-ui/react'
+import Image from "next/image";
+import t from "../../assets/images/t.svg";
 const body2 = () => {
   return (
     <div>
-      <Flex justify="center" gap="50">
-<Flex bg="red"    h="144px"  w="256px" >
-    AA
+      <Flex justify="center" >
+<Flex  p="2rem">
+<Image src={t} alt="" width="150px" h="150px" />
 </Flex>
-<Flex bg="blue"  h="144px"  w="256px"  >
-    AA
+<Flex  p="2rem" >
+<Image src={t} alt="" width="150px" h="150px" />
 </Flex>
         </Flex>
     </div>
