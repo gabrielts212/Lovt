@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box,Flex, Heading,Text} from '@chakra-ui/react'
+import {Box,Flex, Heading,Text,SimpleGrid } from '@chakra-ui/react'
 import Image from "next/image";
 import Mapa from "../../assets/images/mapa.svg";
 import Coluna1 from "../../assets/images/coluna1.svg";
@@ -7,9 +7,14 @@ const body3 = () => {
   return (
     <div>
 
-<Flex justify="center"  >
+<Flex justify="center" >
 
-<Flex  m="2rem">
+
+{/* <Flex  m="1rem">
+<Heading>Your Style</Heading>
+   
+</Flex>
+<Flex  m="1rem">
 <Image src={Coluna1} alt="" width="150px" h="150px" />
    
 </Flex>
@@ -17,7 +22,7 @@ const body3 = () => {
         </Flex>
 <Flex justify="center" gap="50" >
 
-<Flex   m="2rem"  >
+<Flex   m="1rem"  >
 <Image src={Coluna1} alt="" width="150px" h="150px" />
   
 </Flex>
@@ -26,12 +31,32 @@ const body3 = () => {
 
 <Flex justify="center" gap="50">
 
-<Flex m="2rem"   >
+<Flex m="1rem"   >
 <Image src={Coluna1} alt="" width="150px" h="150px" />
  
+</Flex> */}
+
+        <SimpleGrid columns={[2, 1, 1]} >
+<Flex justify="center">
+        <Heading >Your Style</Heading>
 </Flex>
 
+<Flex p="2">
+
+        <Image src={Coluna1} alt="" width="150px" h="150px" />
+</Flex>
+<Flex  p="2">
+
+        <Image src={Coluna1} alt="" width="150px" h="150px" />
+</Flex>
+<Flex  p="2">
+
+        <Image src={Coluna1} alt="" width="150px" h="150px" />
+</Flex>
+       
+</SimpleGrid>
         </Flex>
+
     </div>
   )
 }

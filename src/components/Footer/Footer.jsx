@@ -1,17 +1,21 @@
 import React from 'react'
-import {Box,Flex, Heading,Text} from '@chakra-ui/react'
+import {Box,Flex, Heading,Text,SimpleGrid} from '@chakra-ui/react'
 import Image from "next/image";
 import Mapa from "../../assets/images/mapa.svg";
 const Footer = () => {
   return (
     <div>
 
-<Flex  bg="#333333" h="300px" align="center" justify="center" gap="20">
+<Flex  bg="#333333" h="243px" align="center" justify="center" gap="20">
   
+
+<SimpleGrid columns={[1 ,2, 2]}  justify="center"  gap="20">
+
 <Flex h="163px" w="252px" >
 <Image src={Mapa} alt="" width="250px" h="150px" />
   
 </Flex>
+
 <Flex h="163px" w="252px" >
 LOVT - You love, your loft!
 
@@ -26,8 +30,7 @@ contact@lovtrealstate.com
 
 
 </Flex >
-
-
+</SimpleGrid>
  
 </Flex>
 

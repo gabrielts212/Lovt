@@ -3,7 +3,7 @@ import {Box,Flex, Heading,Text} from '@chakra-ui/react'
 const Header = () => {
   return (
     <div>
-<Flex bg="gray" h="49px" >
+<Flex bg="gray" h="100px"  align="center">
 <Heading>
 LOVT
 </Heading>
