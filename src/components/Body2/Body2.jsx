@@ -5,13 +5,27 @@ import t from "../../assets/images/t.svg";
 const body2 = () => {
   return (
     <div>
-<Flex justify="center"   align="flex-end" >
-<SimpleGrid columns={[1 ,2, 2]}  justify="center"  gap="20">
+<Flex justify="center"   align="flex-end" gap="20" >
+
+<Box bg="white"  h="200px">
 
 <Image src={t} alt="" width="150px" h="150px" />
-<Image src={t} alt="" width="150px" h="150px" />
+<Box>
 
-</SimpleGrid>
+<Text>
+AAA
+</Text>
+</Box>
+</Box>
+<Box bg="white"  h="200px">
+
+<Image src={t} alt="" width="150px" h="150px" />
+<Text>
+A
+</Text>
+</Box>
+
+
 </Flex>
      
     </div>

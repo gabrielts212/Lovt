@@ -1,18 +1,19 @@
 import React from 'react'
 import {Box,Flex, Heading,Text} from '@chakra-ui/react'
 import Image from "next/image";
-import Banner1 from "../../assets/images/banner1.png";
+import Banner1 from "../../assets/images/banner.svg";
 const body = () => {
   return (
     <div>
-<Flex justify="center" width="100%" height="">
-<Flex   m="2rem"  >
-
-<Image src={ Banner1} alt=""  />
+<Flex justify="center"height={["140px", "315px",]} width={["400px", "100%", "100%"]}>
+<Flex>
+<Image src={ Banner1} alt="" />
 </Flex>
         </Flex>
     </div>
   )
 }
 
+
 export default body
+

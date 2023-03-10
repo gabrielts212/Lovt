@@ -6,17 +6,17 @@ const Footer = () => {
   return (
     <div>
 
-<Flex  bg="#333333" h="243px" align="center" justify="center" gap="20">
+<Flex  bg="#333333" h="243px" align="center" justify="center"  >
   
 
-<SimpleGrid columns={[1 ,2, 2]}  justify="center"  gap="20">
+<SimpleGrid columns={[1 ,2, 2]}  justify="center" gap="20">
 
-<Flex h="163px" w="252px" >
-<Image src={Mapa} alt="" width="250px" h="150px" />
+<Flex h="163px" w="252px" gap="20">
+<Image src={Mapa} alt="" width="250px" h="150px"gap="20" />
   
 </Flex>
 
-<Flex h="163px" w="252px" >
+<Flex h="163px" w="252px" color='white' >
 LOVT - You love, your loft!
 
 Broad St,

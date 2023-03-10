@@ -3,11 +3,11 @@ import {Box,Flex, Heading,Text} from '@chakra-ui/react'
 const Header = () => {
   return (
     <div>
-<Flex bg="gray" h="100px"  align="center">
-<Heading>
+<Flex bg="white" h="50px" align="center">
+<Heading color="#AAAAAA">
 LOVT
-</Heading>
-<Text>You Love, 
+</Heading> 
+<Text  color="#AAAAAA">You Love, 
 your loft!</Text>
 </Flex>
 
